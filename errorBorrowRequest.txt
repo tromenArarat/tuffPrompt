@@ -1,0 +1,35 @@
+Argument of type 
+   '{	id: any; 
+	status: any; 
+	created_at: any; 
+	book: any[]; 
+	requester: { 
+		full_name: any; 
+		email: any; 
+			}[]; 
+				}[]' is not assignable to parameter of type 'SetStateAction<BorrowRequest[]>'.
+  
+  Type '{ 	id: any; 
+  		status: any; 
+  		created_at: any; 
+  		book: any[]; 
+  		requester: { 
+  			full_name: any; 
+  			email: any; 
+  				}[]; 
+  					}[]' is not assignable to type 'BorrowRequest[]'.
+    
+    Type '{ 	id: any; 
+    		status: any; 
+    		created_at: any; 
+    		book: any[]; 
+    		requester: { 
+    			full_name: any; 
+    			email: any; 
+    				}[]; 
+    					}' is not assignable to type 'BorrowRequest'.
+      Types of property 'book' are incompatible.
+        
+        Type 'any[]' is missing the following properties from type 'Book': id, title, author, is_available
+        
+        
