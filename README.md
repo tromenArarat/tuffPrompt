@@ -10,3 +10,8 @@ Aplicación para gestionar préstamos de libros, creada a partir de prompts a la
 ## Carga de libros:
 ![alt text](image-3.png)
 
+## Base de datos
+![alt text](image-5.png)
+
+## Autenticación desde Supabase
+![alt text](image-4.png)
